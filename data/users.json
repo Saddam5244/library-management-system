@@ -1,0 +1,127 @@
+[{
+        "id": "1a2b3c4d",
+        "memberId": "M-1001",
+        "role": "admin",
+        "firstName": "Amina",
+        "lastName": "Khan",
+        "email": "amina.khan@example.com",
+        "passwordHash": "$2b$10$exampleAdminHashPlaceholder",
+        "joinedDate": "2022-01-10T09:30:00Z",
+        "active": true,
+        "phone": "+1-555-0101",
+        "address": {
+            "street": "12 Elm St",
+            "city": "Springfield",
+            "postalCode": "12345",
+            "country": "USA"
+        },
+        "borrowedBooks": [],
+        "fines": 0
+    },
+    {
+        "id": "2b3c4d5e",
+        "memberId": "L-2001",
+        "role": "librarian",
+        "firstName": "Marcus",
+        "lastName": "Reed",
+        "email": "marcus.reed@example.com",
+        "passwordHash": "$2b$10$exampleLibrarianHashPlaceholder",
+        "joinedDate": "2021-06-22T14:15:00Z",
+        "active": true,
+        "phone": "+1-555-0202",
+        "address": {
+            "street": "45 Pine Ave",
+            "city": "Greenville",
+            "postalCode": "23456",
+            "country": "USA"
+        },
+        "borrowedBooks": [{
+            "bookId": "BK-100",
+            "title": "Library Operations 101",
+            "borrowedDate": "2025-09-01T10:00:00Z",
+            "dueDate": "2025-09-21T10:00:00Z",
+            "returnedDate": null
+        }],
+        "fines": 0
+    },
+    {
+        "id": "3c4d5e6f",
+        "memberId": "M-1002",
+        "role": "member",
+        "firstName": "Lina",
+        "lastName": "Torres",
+        "email": "lina.torres@example.com",
+        "passwordHash": "$2b$10$exampleMemberHash1",
+        "joinedDate": "2023-03-05T08:00:00Z",
+        "active": true,
+        "phone": "+1-555-0303",
+        "address": {
+            "street": "8 Oak Blvd",
+            "city": "Rivertown",
+            "postalCode": "34567",
+            "country": "USA"
+        },
+        "borrowedBooks": [{
+                "bookId": "BK-205",
+                "title": "Introduction to Node.js",
+                "borrowedDate": "2025-10-01T11:30:00Z",
+                "dueDate": "2025-10-21T11:30:00Z",
+                "returnedDate": null
+            },
+            {
+                "bookId": "BK-330",
+                "title": "Clean Code",
+                "borrowedDate": "2025-08-05T09:00:00Z",
+                "dueDate": "2025-08-25T09:00:00Z",
+                "returnedDate": "2025-08-24T16:45:00Z"
+            }
+        ],
+        "fines": 0
+    },
+    {
+        "id": "4d5e6f7g",
+        "memberId": "M-1003",
+        "role": "member",
+        "firstName": "Owen",
+        "lastName": "Park",
+        "email": "owen.park@example.com",
+        "passwordHash": "$2b$10$exampleMemberHash2",
+        "joinedDate": "2020-11-12T12:00:00Z",
+        "active": true,
+        "phone": "+1-555-0404",
+        "address": {
+            "street": "99 Maple Rd",
+            "city": "Lakeside",
+            "postalCode": "45678",
+            "country": "USA"
+        },
+        "borrowedBooks": [{
+            "bookId": "BK-412",
+            "title": "Artificial Intelligence Basics",
+            "borrowedDate": "2025-09-10T13:00:00Z",
+            "dueDate": "2025-09-30T13:00:00Z",
+            "returnedDate": null
+        }],
+        "fines": 12.5
+    },
+    {
+        "id": "5e6f7g8h",
+        "memberId": "M-1004",
+        "role": "member",
+        "firstName": "Zoe",
+        "lastName": "Mitchell",
+        "email": "zoe.mitchell@example.com",
+        "passwordHash": "$2b$10$exampleMemberHash3",
+        "joinedDate": "2019-07-19T07:45:00Z",
+        "active": false,
+        "phone": "+1-555-0505",
+        "address": {
+            "street": "7 Birch Ln",
+            "city": "Hillview",
+            "postalCode": "56789",
+            "country": "USA"
+        },
+        "borrowedBooks": [],
+        "fines": 0
+    }
+]
